@@ -15,7 +15,8 @@ Test accuracy, mean of 3 runs per data size:
 | 50% | 25,000 | 79.4% |
 | 100% | 50,000 | **84.3%** |
 
-![Accuracy vs training data](images/accuracy_vs_data.png)
+<img width="622" height="432" alt="accuracy" src="https://github.com/user-attachments/assets/c62f14c0-65cb-4e42-ba99-185801790b51" />
+
 
 **Takeaway:** more data always helped, but with diminishing returns. Going from 10% to 25% added 9.4 percentage points, while doubling from 50% to 100% added only 4.9. Past a certain point, better augmentation or architecture may be worth more than collecting more data.
 
